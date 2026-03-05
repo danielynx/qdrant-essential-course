@@ -2072,6 +2072,7 @@ dependencies = [
     { name = "pandas" },
     { name = "qdrant-client" },
     { name = "sentence-transformers" },
+    { name = "tqdm" },
     { name = "transformers" },
 ]
 
@@ -2085,6 +2086,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "qdrant-client", specifier = ">=1.16.2" },
     { name = "sentence-transformers", specifier = ">=5.2.3" },
+    { name = "tqdm", specifier = ">=4.67.3" },
     { name = "transformers", specifier = ">=5.2.0" },
 ]
 
